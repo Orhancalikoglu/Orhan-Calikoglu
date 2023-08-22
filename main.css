@@ -34,3 +34,49 @@ body{
     object-fit: cover;
     object-position: top right;
 }
+
+/* body styles */
+.bcard__body{
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+.bcard__heading-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem;
+}
+
+.bcard__heading-wrapper * + * {
+    margin-top: 0.5em;
+}
+
+.bcard__name{
+    color: chocolate;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.bcard__title{
+    color: blueviolet;
+    font-weight: 400;
+    font-size: 1.28rem;
+}
+
+.bcard__btn{
+    color: indigo;
+    background-color: burlywood;
+}
+.bcard__btn-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
