@@ -26,3 +26,11 @@ body{
 }
 
 /* header Styles */
+
+.bcard__profile-img{
+    width: 31.7rem;
+    height: 31.7rem;
+    border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
+    object-position: top right;
+}
