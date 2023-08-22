@@ -12,3 +12,17 @@ body{
     background-color: chartreuse;
     font-family: 'Dancing Script', sans-serif;
 }
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bcard{
+    width: 31.7rem;
+    margin: 1rem;
+}
+
+/* header Styles */
