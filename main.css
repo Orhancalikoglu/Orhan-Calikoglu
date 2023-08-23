@@ -109,3 +109,34 @@ body{
     font-size: 1.08rem;
 }
 
+/* footer styles */
+
+.bcard__footer{
+    height: 6.5rem;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.bcard__footer-icon{
+    font-size: 2.7rem;
+    padding: 0.2em;
+    color: lawngreen;
+    background-color: darkslateblue;
+    margin-right: 2.4rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bcard__footer-icon:last-of-type{
+    margin-right: 0;
+}
+
+@media (max-height:750px){
+    .main {
+        height: auto;
+    }
+}
+
