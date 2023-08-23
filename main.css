@@ -90,3 +90,22 @@ body{
     margin-right: 1rem;
     font-size: 1.4rem;
 }
+
+.bcard__text-wrapper{
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+}
+.bcard__text-wrapper * + * {
+    margin-top: 1em;
+}
+
+.bcard__heading{
+    color: coral;
+    font-size: 1.6rem;
+}
+
+.bcard__text{
+    color: darkslategray;
+    font-size: 1.08rem;
+}
+
